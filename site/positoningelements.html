@@ -12,8 +12,10 @@
 		h1 {
 			margin-bottom:  10px;
 		}
-		div {
+		#container {
 			background-color: cyan;
+		    position: relative;
+		    text-decoration: inherit;
 
 		}
 		p {
@@ -36,6 +38,9 @@
 		}
 		#p3 {
 			background-color: green;
+			position: absolute;
+			top: 0px;
+			right: 0px;
 
 		}
 		#p4 {
@@ -46,7 +51,7 @@
 </head>
 <body>
 	<h1>Positioning of Elements</h1>
-	<div>
+	<div id="container"> 
 		<p id="p1"></p>
 		<p id="p2"></p>
 		<p id="p3"></p>
