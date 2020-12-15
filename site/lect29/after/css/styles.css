@@ -28,3 +28,38 @@ body {
 	text-decoration: none;
 }
 
+@media (min-width: 565px)
+{
+	.navbar-toggler {
+		display: none;
+	}
+}
+
+
+.navbar-toggler span {
+	border: 1px solid black;
+}
+
+.nav-item  span {
+	color: #951C49;
+	text-align: center;
+}
+
+.nav-item a:hover {
+	background: #E7E7E7;
+
+}
+
+.nav-item a span {
+	font-size: 1.8em;
+
+}
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
