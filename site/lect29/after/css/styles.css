@@ -28,12 +28,7 @@ body {
 	text-decoration: none;
 }
 
-@media (min-width: 565px)
-{
-	.navbar-toggler {
-		display: none;
-	}
-}
+
 
 
 .navbar-toggler span {
@@ -63,3 +58,200 @@ body {
 	text-align: right;
 	padding-bottom: 0;
 }
+
+
+/* Home Page*/
+ 
+
+ /* Extra Large Devices */
+
+ @media (min-width: 1200px)
+ {
+	.jumbotron {
+		background: url("../images/soul-society--Bleach.jpg") no-repeat ;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+} 
+
+
+ /* Large Devices */
+
+ @media (min-width: 992px) and (max-width: 1199px)
+ {
+ 	.jumbotron {
+ 		background: url("../images/hueco.png") no-repeat;
+ 		height: 558px;
+ 		box-shadow: 0 0 0 #3F0C1F;
+ 		border: 2px solid #3F0C1F;
+
+ 	}
+ }
+
+ /* Medium Devices */
+
+ @media (min-width: 768px) and (max-width: 991px)
+ {
+
+ 	.jumbotron {
+ 		background: url("../images/las-noches.jpg") no-repeat;
+ 		height: 432px;
+ 		box-shadow: 0 0 50px #3F0C1F;
+ 		border: 2px solid #3F0C1F;
+ 	}
+ }
+
+ /* Small Devices */
+
+ @media (min-width: 576px) and (max-width: 767px)
+  {
+
+  	.jumbotron {
+  		background: url("../images/soul-society.jpg") no-repeat;
+  		height: 297px;
+  		box-shadow: 0 0 50px #3F0C1F;
+  		border: 2px solid #3F0C1F;
+  	}
+  }
+
+  /* Extra Small Devices */
+
+  @media (max-width: 575px)
+  {
+
+   
+
+  	.jumbotron {
+      margin-top: 55px;
+      padding: 0px;
+      box-shadow: 0 0 50px #3F0C1F;
+      border: 2px solid #3F0C1F;
+      width: 344px;
+  }
+  }
+
+ #menu-tile, #specials, #map {
+
+ 	height: 250px;
+ 	width: 100%;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #3F0C1F;
+ 	overflow: hidden;
+ }
+
+ #menu-tile:hover, #specials:hover, #map:hover {
+ 	box-shadow: 0px 1px 5px 1px #cccccc;
+ }
+
+ #menu-tile {
+	background: url(../images/zanpakto.jpg) no-repeat;
+	background-position: center;
+ } 
+
+ #specials {
+ 	background: url(../images/kido.jpg) no-repeat;
+ 	background-position: center;
+ }
+
+ #menu-tile span, #specials span, #map span {
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	background-color: #000;
+ 	color: #fff;
+ 	opacity: 0.8;
+ }
+
+ /*End Home Page*/
+
+
+ /*Menu */
+
+ .category-tile {
+ 	position: relative;
+ 	border: 2px solid #3F0C1F;
+ 	overflow: hidden;
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: 0px auto 15px auto;
+
+ }
+
+ .category-tile span {
+ 	position: absolute;
+ 	bottom: 0px;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	color: #fff;
+    background-color: #000;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    width: 100%;
+
+ }
+
+
+ .category-tile:hover {
+ 	box-shadow: 0px 1px 5px 1px #cccccc;
+ }
+
+ #Menutitle   {
+ 	margin-bottom: 50px;
+ }
+ 
+
+
+ /*Footer */
+
+ .card-footer {
+ 	margin-top: 30px;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	background-color: #222;
+ 	border: 0px;
+
+ }
+
+ .card-footer div.row {
+ 	margin-bottom: 35px;
+ }
+
+
+
+ #hours {
+ 	color: #fff;
+ 	line-height: 2;
+ }
+
+ #address {
+ 	color: #fff;
+ 	line-height: 2;
+ }
+
+
+ #hours > span, #address > span {
+ 	font-size: 1.3rem;
+ }
+
+ #testimonials {
+ 	color: #fff;
+    font-style: italic;
+ }
+
+ .text-center {
+ 	color: #fff;
+
+ }
+
+ @media (max-width: 575px) {
+
+ 	.card-footer section {
+ 		margin-bottom: 30px;
+ 		text-align: center;
+
+ 	}
+ }
