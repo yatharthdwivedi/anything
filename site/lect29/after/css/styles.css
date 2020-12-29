@@ -204,6 +204,62 @@ body {
  }
  
 
+/* Capatains */
+
+ .menu-item-tile {
+ 	margin-bottom: 25px;
+ }
+
+ .menu-item-tile hr {
+ 	width: 80%;
+ 	background-color: #ffc107;
+ }
+
+ .photo {
+ 	position: relative;
+ 	border: 2px solid #3F0C1F;
+ 	overflow: hidden;
+ 	padding: 0px;
+ 	margin-right: -15px;
+ 	margin-left: auto;
+ 	margin-bottom: 20px;
+ 	max-width: 250px;
+ }
+
+ .photo div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    } 
+
+  .description {
+
+  	padding-right: 50px;
+  	padding-left: 20px;
+  }  
+
+   .menu-item-title {
+  	margin:  0px 0px 10px ;
+  	font-weight: bold;
+  	font-style: italic;
+  }
+
+  .details {
+  	font-style: italic;
+  	font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+
+  	.photo {
+  		margin-right: auto;
+  	}
+
+  	.menu-item-title {
+  		text-align: center;
+  	}
+  }
+
 
  /*Footer */
 
